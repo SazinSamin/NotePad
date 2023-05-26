@@ -1,0 +1,21 @@
+:root{
+  --color1: grey,
+}
+
+.Todo{
+  background-image: linear-gradient(to top, rgb(37, 37, 132), rgb(57, 57, 156), blue);
+  color: white;
+  margin: 1vw;
+  border-radius: 2vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  display: flex;
+  flex-direction: row;
+  box-shadow:2px 5px 5px blue;
+}
+
+.deleteBtn{
+  color: white;
+  background-color: red;
+  border-radius: 1vw;
+}
