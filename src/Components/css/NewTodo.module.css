@@ -25,7 +25,30 @@
 }
 
 .NewTodo button{
+  display: inline-block;
+  padding: 1vw;
+  font-size: 1.3vw;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 2vw;
+  transition: background-color 0.3s ease;
+  background-color: #08beb8;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
   margin: 1vw;
-
 }
 
+.NewTodo button:hover{
+  background-color: blue;
+}
+
+.NewTodo button:active{
+  background-color: green;
+}
+
+input {
+  font-size: 1.3vw;
+}
