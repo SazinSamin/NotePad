@@ -33,11 +33,12 @@ export default function HomePage() {
     const idx = todos.findIndex((e) => e["id"] === deleteTodoId);
     if (idx >= 0) {
       const updatedTodo = [...todos];
-      updatedTodo.splice(updatedTodo, 1);
+      updatedTodo.splice(idx, 1);
       setTodos(updatedTodo);
     }
     warningNotification();
   };
+
 
   const handleSearch = (seachKeyWord) => {
     const seachKeyWordLower = seachKeyWord.toLowerCase();
