@@ -3,28 +3,29 @@
   flex-direction: column;
   align-items: center;
   margin: 1vw;
-  border-radius: 10vw;
-
+  border-radius: 5vw;
+  background-color: rgb(44, 44, 133);
 }
 
 .title{
   border-radius: 10vw;
   margin: 1vw;
   height: 2vw;
-  width: 30vw;
+  width: 20vw;
 }
 
 .desc{
   border-radius: 1vw;
   height: 5vw;
-  width: 30vw;
+  width: 20vw;
 }
 
 .NewTodo label{
-  margin: 1vw;
+  margin: 0.5vw;
 }
 
 .NewTodo button{
   margin: 1vw;
 
 }
+

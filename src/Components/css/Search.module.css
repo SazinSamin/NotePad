@@ -1,0 +1,11 @@
+.Search{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vw;
+  margin-top: 6vw;
+  border-radius: 2vw;
+  background-color: rgb(44, 44, 133);
+  padding: 2vw;
+  padding-top: 0.5vw;
+}

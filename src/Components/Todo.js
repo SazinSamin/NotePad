@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import {FaTrashAlt} from 'react-icons/fa';
 
 import style from '../Components/css/Todo.module.css'
-
-
+import TodoStyled from './ColorChange/Style_components';
+import colors from './ColorChange/colors'
 
 export default function Todo(props) {
 
@@ -22,9 +22,9 @@ export default function Todo(props) {
         <article>
           <div>
             <h1>{title}</h1>
-            <h3>{desc}</h3> 
+            <p>{desc}</p> 
           </div>
-          <p>{date}</p>
+          <footer>{date}</footer>
           <button onClick={handleDelete} className={style.deleteBtn}><FaTrashAlt></FaTrashAlt></button>
         </article>
       }

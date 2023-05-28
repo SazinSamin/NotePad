@@ -1,7 +1,11 @@
-.HomePage{
+.HomePage {
+  display: flex;
+}
+
+.Todos{
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  
+  border-left: 0.3vw dotted blue;
 }

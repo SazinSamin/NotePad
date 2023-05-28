@@ -9,7 +9,7 @@ export default function Todos (props) {
 
   return <div>
     <section className={style.Todos}>
-      {props.todos.map((todo) => <Todo deleteTodo={props.deleteTodo} todo={todo} key={todo.id}/>)}
+      {props.todos.map((todo, idx) => <Todo idx={idx} deleteTodo={props.deleteTodo} todo={todo} key={todo.id}/>)}
     </section>
   </div>
 }

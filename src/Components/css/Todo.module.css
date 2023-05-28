@@ -3,7 +3,7 @@
 }
 
 .Todo{
-  background-image: linear-gradient(to top, rgb(37, 37, 132), rgb(57, 57, 156), blue);
+  background-image: linear-gradient(to bottom right, rgb(31, 31, 67), rgb(31, 31, 67), rgb(31, 31, 67),rgb(31, 31, 67), rgb(59, 59, 178));
   color: white;
   margin: 1vw;
   border-radius: 2vw;
@@ -15,7 +15,9 @@
 }
 
 .deleteBtn{
-  color: white;
-  background-color: red;
-  border-radius: 1vw;
+  color: red;
+  background-color: transparent;
+  font-size: 2vw;
+  border-radius: 2vw;
+  margin: 1vw;
 }
